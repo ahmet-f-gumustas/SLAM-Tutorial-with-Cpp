@@ -30,3 +30,38 @@
 *.exe
 *.out
 *.app
+
+# C++ specific files
+*.ii
+*.moc
+*.cxx
+
+# Build directories
+build/
+Build/
+BUILD/
+build-*/
+
+# Qt specific files
+*.pro.user
+*.qmake.stash
+*.pro.user.*
+
+# Visual Studio files
+.vscode/
+*.code-workspace
+
+# Mac specific files
+.DS_Store
+
+# Temporary files
+tmp/
+*.tmp
+*.log
+
+# Generated files
+*.dSYM/
+*.dSYM/*
+
+# Other unuseful files
+*.orig
