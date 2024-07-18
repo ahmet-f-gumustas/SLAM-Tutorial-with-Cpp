@@ -1,6 +1,6 @@
 1. How to compile this program:
 
-* use pangolin: slambook/3rdpart/Pangolin or download it from github: https://github.com/stevenlovegrove/Pangolin
+* use pangolin: 3rdpart/Pangolin or download it from github: https://github.com/stevenlovegrove/Pangolin
 
 * install dependency for pangolin (mainly the OpenGL): 
 sudo apt-get install libglew-dev
@@ -12,6 +12,7 @@ cd build
 cmake ..
 make 
 sudo make install 
+ldconfig
 
 * compile this program:
 mkdir build
@@ -29,5 +30,3 @@ Note that in this program the original X axis is right (red line), Y is up (gree
 
 3. Problems may happen:
 * I found that in virtual machines there may be an error in pangolin, which was solved in its issue: https://github.com/stevenlovegrove/Pangolin/issues/74 . You need to comment the two lines mentioned by paulinus, and the recompile and reinstall Pangolin, if you happen to find this problem. 
-
-If you still have problems using this program, please contact: gaoxiang12@mails.tsinghua.edu.cn
