@@ -7,3 +7,4 @@ set( CMAKE_CXX_FLAGS "-O3")
 include_directories( "/usr/include/eigen3" )
 
 add_executable( eigen-geometry eigenGeometry.cpp )
+add_executable( coordinate-transform coordinateTransform.cpp )
